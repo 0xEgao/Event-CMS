@@ -1,0 +1,457 @@
+.navbar {
+    background-color: rgba(7, 15, 37, 0); 
+    color: white;
+    padding: 0.5rem 1rem; 
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .navbar .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 1280px; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+      padding: 0; 
+      flex-wrap:wrap;
+    }
+  
+  .navbar span {
+    transition: opacity 0.5s ease-in-out;
+    display: inline-block;
+  }
+  
+    .navbar .flex {
+      display: flex;
+    }
+    .navbar .flex1{
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      width: 25%; 
+    }
+    .navbar .justify-between {
+      justify-content: space-between;
+    }
+    
+    .navbar .items-center {
+      align-items: center;
+    }
+    
+    .navbar .space-x-6 {
+      margin-left: 1rem;
+      margin-right: 1rem; 
+    }
+    
+    .navbar .text-xl {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    
+    .navbar .font-bold {
+      font-weight: bold;
+    }
+    
+    .navbar .space-x-6 {
+      margin-right: 1rem;
+    }
+    
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem; 
+      margin-right: 1rem; 
+      font-size:1.5rem;
+    }
+    
+    .navbar a:hover {
+      color: #facc15; 
+      transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+      margin-left: 1rem; 
+      margin-right: 1rem; 
+      transform: scale(1.2);
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column; 
+        padding: 10px; 
+      }
+    
+      main {
+        padding: 10px; 
+      }
+    }
+    
+  
+    .profile-image {
+      width: 2.5rem; 
+      height: 2.5rem; 
+      border-radius: 50%; 
+      border: 2px solid white; 
+      cursor: pointer; 
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  main {
+    flex-grow: 1; 
+  }
+  
+  .twitter-icon {
+    width: 24px;  
+    height: 24px;  
+    object-fit: contain;  
+  }
+  
+  .bold-cursive {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding:20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .left-column {
+    margin-top:10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: flex-start;
+  }
+  
+  .right-column {
+    margin-top:2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right:20px;
+  }
+  
+  .items-end{
+    justify-content:flex-end;
+  }
+  
+  .homepage {
+    background-color: #250b4593;
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 2px solid;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .carousel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+  }
+  
+  .carousel-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white;  
+  }
+  
+  .carousel-slide {
+    padding: 0 12px;
+    margin:0 8px;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    gap: 16px; 
+  }
+  
+  .carousel-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 90%; 
+    height: auto; 
+    margin: auto; 
+  }
+  
+  .carousel-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .carousel-card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .carousel-card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .carousel-card-date {
+    color: gray;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 10;
+    width: 30px; 
+    height: 30px;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: white !important; 
+    font-size: 28px !important; 
+    opacity: 1 !important;
+  }
+  
+  .slick-prev {
+    left: -30px; 
+  }
+  
+  .slick-next {
+    right: -30px;
+  }
+  
+  .slick-prev:hover:before,
+  .slick-next:hover:before {
+    opacity: 1;
+  }
+  
+  .slick-prev, .slick-next {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .slick-prev {
+      left: -20px; 
+    }
+  
+    .slick-next {
+      right: -20px;
+    }
+  
+    .slick-prev:before, .slick-next:before {
+      font-size: 22px !important; 
+    }
+  }
+  @media (max-width: 1024px) {
+    .carousel-card {
+      max-width: 80%; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-card {
+      max-width: 70%; 
+    }
+  }
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #014421, #026e32, #038c3e);
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.lamp-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #38bdf8, #818cf8, #c084fc);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: 10;
+}
+
+.lamp-effect {
+    position: absolute;
+    width: 30rem;
+    height: 15rem;
+    background: conic-gradient(from 70deg at center, cyan, transparent);
+    filter: blur(20px);
+    opacity: 0.8;
+}
+
+.left {
+    left: 15%;
+    top: 30%;
+    transform: rotate(-15deg);
+}
+
+.right {
+    right: 15%;
+    top: 30%;
+    transform: rotate(15deg);
+}
+
+.light-glow {
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    background: cyan;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.5;
+    bottom: 50%;
+}
+
+.blur-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: rgba(15, 23, 42, 0.8);
+    bottom: 0;
+    filter: blur(15px);
+}
+
+.glowing-bar-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1050px;
+  padding: 10px;
+  background:transparent;
+}
+
+.glowing-bar {
+  position: relative;
+  width: 350px;
+  height: 10px;
+  background: linear-gradient(to right, #06b6d4, #22d3ee, #67e8f9);
+  border-radius: 10px;
+  box-shadow: 
+      0 5px 20px rgba(34, 211, 238, 0.5), 
+      0 10px 40px rgba(34, 211, 238, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glowing-bar:hover {
+  transform: scale(1.1);
+  box-shadow: 
+      0 10px 30px rgba(34, 211, 238, 0.9),
+      0 20px 50px rgba(34, 211, 238, 0.6),
+      0 30px 70px rgba(34, 211, 238, 0.4);
+}
+
+.glow-effect {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; 
+  max-width: 230px;
+  height: 30px; 
+  background: radial-gradient(ellipse at center, rgba(34, 211, 238, 0.6) 0%, rgba(15, 23, 42, 0) 80%);
+  filter: blur(25px); 
+  opacity: 0.5; 
+}
+
+.bar-title {
+  color: cyan;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.bar-title:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .glowing-bar-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      top: 10px;
+  }
+  .glowing-bar {
+      width: 90%;
+      max-width: 300px;
+  }
+  .glow-effect {
+      width: 80%; 
+      max-width: 220px;
+      height: 25px;
+      filter: blur(20px);
+      opacity: 0.4; 
+  }
+  .bar-title {
+      font-size: 1rem;
+  }
+}
