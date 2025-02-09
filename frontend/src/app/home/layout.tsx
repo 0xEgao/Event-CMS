@@ -1,10 +1,14 @@
 "use client";
-import React from "react";
+import React, { ReactNode } from "react";
 import { Theme, Box, Text } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
-import "../../styles/home.css"; 
+import "../../styles/home.css";
 
-export default function HomeLayout({ children }) {
+interface HomeLayoutProps {
+  children: ReactNode;
+}
+
+const HomeLayout: React.FC<HomeLayoutProps> = ({ children }) => {
   return (
     <Theme appearance="dark" accentColor="cyan" grayColor="gray">
       <Box className="glowing-bar-container">
@@ -26,4 +30,6 @@ export default function HomeLayout({ children }) {
       <Box className="glowing-bar-container">{children}</Box>
     </Theme>
   );
-}
+};
+
+export default HomeLayout;

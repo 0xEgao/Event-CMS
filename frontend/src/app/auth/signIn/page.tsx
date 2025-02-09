@@ -1,8 +1,14 @@
-import React from "react";
-import { FaGoogle, FaGithub } from "react-icons/fa";
-import "../../../styles/auth.css";
+"use client";
 
-export default function SignIn() {
+import React, { FormEvent } from "react";
+import { FaGoogle, FaGithub } from "react-icons/fa";
+import "../../../styles/auth1.css";
+
+const SignIn: React.FC = () => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+  };
+
   return (
     <div className="signup-container">
       <div className="signup-left">
@@ -11,10 +17,12 @@ export default function SignIn() {
       </div>
       <div className="signup-right">
         <div className="card-3d">
-          <form className="signup-form">
-            <input type="email" placeholder="Email" className="input-field column-input" />
-            <input type="password" placeholder="Password" className="input-field column-input" />
-            <p className="link"><a>Forgot Password?</a></p>
+          <form className="signup-form" onSubmit={handleSubmit}>
+            <input type="email" placeholder="Email" className="input-field column-input" required />
+            <input type="password" placeholder="Password" className="input-field column-input" required />
+            <p className="link">
+              <a href="#">Forgot Password?</a>
+            </p>
             <button type="submit" className="signup-button">Sign In</button>
           </form>
           <div className="divider">Or</div>
@@ -33,4 +41,6 @@ export default function SignIn() {
       </div>
     </div>
   );
-}
+};
+
+export default SignIn;
