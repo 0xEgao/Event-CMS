@@ -8,7 +8,7 @@
 
 ### Backend
 - **Server:** Express (TypeScript)
-- **Database:** PostgreSQL
+- **Database:** Supabase
 
 ### Development Roles
 - **Frontend Lead:** Harshit
