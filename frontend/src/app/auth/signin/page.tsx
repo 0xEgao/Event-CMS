@@ -1,72 +1,48 @@
-"use client";
-import { useState } from "react";
+"use client"
+import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 
-export default function SignUp() {
-  const [form, setForm] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: "",
-  });
-
+export default function SignInCard() {
   return (
-    <div className="bg-black/50 p-8 rounded-lg shadow-lg w-full max-w-md">
-      <h2 className="text-white text-2xl font-bold text-center">Sign Up</h2>
-      <p className="text-gray-400 text-center mb-6">Create a new account</p>
+    <div className="bg-black p-6 rounded-lg shadow-lg max-w-md w-full">
+      <h2 className="text-white text-center text-2xl font-bold">Sign In</h2>
+      <p className="text-gray-400 text-center mb-4">Welcome back!</p>
 
-      <form className="space-y-4">
-        <input
-          type="text"
-          placeholder="First Name"
-          className="w-full px-4 py-2 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <input
-          type="text"
-          placeholder="Last Name"
-          className="w-full px-4 py-2 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          className="w-full px-4 py-2 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          className="w-full px-4 py-2 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+      <input
+        type="text"
+        placeholder="Username"
+        className="w-full p-2 mb-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none"
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        className="w-full p-2 mb-4 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none"
+      />
 
-        <button
-          type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded"
-        >
-          Sign Up
-        </button>
-      </form>
+      <button className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
+        Sign In
+      </button>
 
       <div className="flex items-center my-4">
         <hr className="flex-grow border-gray-600" />
-        <span className="text-gray-400 mx-4">or</span>
+        <span className="text-gray-400 mx-2">or</span>
         <hr className="flex-grow border-gray-600" />
       </div>
 
-      <button className="w-full flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-700 text-white py-2 rounded">
-        <FcGoogle className="text-xl" />
-        Sign up with Google
+      <button className="w-full flex items-center justify-center gap-2 p-3 mb-2 bg-gray-900 hover:bg-gray-800 rounded text-white">
+          <FcGoogle className="text-xl" /> Sign in with Google
+      </button>
+      <button className="w-full flex items-center justify-center gap-2 p-3 bg-gray-900 hover:bg-gray-800 rounded text-white">
+          <FaGithub className="text-xl" /> Sign in with GitHub
       </button>
 
-      <button className="w-full flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-700 text-white py-2 mt-2 rounded">
-        <FaGithub className="text-xl" />
-        Sign up with GitHub
-      </button>
-
+      {/* Sign Up Link */}
       <p className="text-gray-400 text-center mt-4">
-        Already have an account?{" "}
-        <a href="/auth/signin" className="text-blue-400 hover:underline">
-          Sign In
-        </a>
+        Don't have an account?{" "}
+        <Link href="/auth/signup" className="text-blue-500 hover:underline">
+          Sign Up
+        </Link>
       </p>
     </div>
   );
