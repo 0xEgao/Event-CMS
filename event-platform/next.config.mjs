@@ -21,6 +21,15 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  redirects() {
+    return [
+      {
+        source: '/auth/callback',
+        destination: '/events',
+        permanent:false,
+      },
+    ]
+  },
 }
 
 mergeConfig(nextConfig, userConfig)
