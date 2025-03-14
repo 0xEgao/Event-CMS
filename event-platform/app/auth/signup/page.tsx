@@ -53,7 +53,7 @@ export default function SignUpPage() {
       const { error } = await SupabaseClient.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: `$https://eventify-bu.vercel.app/auth/v1/callback`,
+          redirectTo: `$https://eventify-bu.vercel.app/auth/callback`,
         },
       })
 
@@ -73,7 +73,7 @@ export default function SignUpPage() {
       const { error } = await SupabaseClient.auth.signInWithOAuth({
         provider: "github",
         options: {
-          redirectTo: `$https://eventify-bu.vercel.app/auth/v1/callback`,
+          redirectTo: `$https://eventify-bu.vercel.app/auth/callback`,
         },
       })
 
