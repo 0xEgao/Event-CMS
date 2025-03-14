@@ -73,7 +73,7 @@ export default function SignUpPage() {
       const { error } = await SupabaseClient.auth.signInWithOAuth({
         provider: "github",
         options: {
-          redirectTo: `$https://ejgknjxxmaedngcxxvfa.supabase.co/auth/callback`,
+          redirectTo: `$https://ejgknjxxmaedngcxxvfa.supabase.co/auth/v1/callback`,
         },
       })
 
