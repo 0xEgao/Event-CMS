@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-200 to-pink-200 blur-3xl opacity-70"></div>
                 <div className="relative h-full w-full">
                   <Image
-                    src="/placecholder.jpg?height=600&width=400"
+                    src="/placecholder1.jpg?height=600&width=400"
                     alt="Event app preview"
                     width={600}
                     height={1000}
