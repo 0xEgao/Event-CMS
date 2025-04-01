@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-200 to-pink-200 blur-3xl opacity-70"></div>
                 <div className="relative h-full w-full">
                   <Image
-                    src="/placecholder1.jpg?height=600&width=400"
+                    src="/placecholder.jpg?height=600&width=400"
                     alt="Event app preview"
                     width={600}
                     height={1000}
@@ -136,7 +136,7 @@ const featuredEvents = [
     date: "July 23, 2023",
     location: "Ocean Beach, San Francisco",
     attendees: 120,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/placeholder3.jpg?height=400&width=600",
   },
   {
     id: "2",
@@ -144,7 +144,7 @@ const featuredEvents = [
     date: "August 15, 2023",
     location: "Convention Center, New York",
     attendees: 500,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/placeholder2.jpeg?height=400&width=600",
   },
   {
     id: "3",
@@ -152,7 +152,7 @@ const featuredEvents = [
     date: "September 10-12, 2023",
     location: "Mountain View Resort",
     attendees: 50,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/placeholder4.jpeg?height=400&width=600",
   },
 ]
 

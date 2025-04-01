@@ -58,7 +58,6 @@ export default function SignUpPage() {
       })
 
       if (error) throw error
-      // The redirect will be handled by Supabase
     } catch (error) {
       setError(error instanceof Error ? error.message : "An error occurred during Google sign-in")
       setIsLoading(false)
@@ -78,7 +77,6 @@ export default function SignUpPage() {
       })
 
       if (error) throw error
-      // The redirect will be handled by Supabase
     } catch (error) {
       setError(error instanceof Error ? error.message : "An error occurred during GitHub sign-in")
       setIsLoading(false)
@@ -87,7 +85,6 @@ export default function SignUpPage() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Header remains the same */}
       <header className="border-b bg-white">
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
           <Link href="/" className="flex items-center gap-2">
