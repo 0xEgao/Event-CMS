@@ -17,13 +17,6 @@
 ## Project Overview
 This project is aimed at building a scalable and robust platform using modern web technologies. The frontend and backend components are designed for seamless integration, delivering high performance and great user experiences.
 
-## Flowchart
-Below is the detailed platform development flowchart:
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF5733', 'edgeLabelBackground':'#ffffff'}}}%%
-%% Include content from the file provided
-``` 
 
 ## Features
 - **Frontend:**
