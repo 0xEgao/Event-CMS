@@ -41,7 +41,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative h-[400px] w-full overflow-hidden rounded-lg shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/music.jpg?height=800&width=600"
                   alt="NFT Ticket Example"
                   fill
                   className="object-cover"

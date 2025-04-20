@@ -42,7 +42,7 @@ export default function EventsPage() {
               <div className="overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/solana.webp?height=400&width=600"
                     alt="Tech Conference 2025"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -84,7 +84,7 @@ export default function EventsPage() {
               <div className="overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/music.jpg?height=400&width=600"
                     alt="Summer Music Festival"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -126,7 +126,7 @@ export default function EventsPage() {
               <div className="overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/nft.jpg?height=400&width=600"
                     alt="Art Exhibition"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -168,7 +168,7 @@ export default function EventsPage() {
               <div className="overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/nba.jpeg?height=400&width=600"
                     alt="Basketball Championship"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -205,54 +205,13 @@ export default function EventsPage() {
               </div>
             </Link>
 
-            {/* Event Card 5 */}
-            <Link href="/events/5" className="group">
-              <div className="overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
-                <div className="relative h-48 overflow-hidden">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Comedy Night"
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                  <div className="absolute bottom-4 left-4">
-                    <Badge className="bg-primary hover:bg-primary/80">Entertainment</Badge>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="mb-2 text-xl font-bold">Comedy Night Special</h3>
-                  <div className="mb-4 space-y-2">
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <Calendar className="h-4 w-4" />
-                      <span>April 20, 2025</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <MapPin className="h-4 w-4" />
-                      <span>Los Angeles, CA</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <Users className="h-4 w-4" />
-                      <span>1,200 attendees</span>
-                    </div>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <div>
-                      <div className="text-sm text-muted-foreground">Starting from</div>
-                      <div className="text-lg font-bold">0.08 ETH</div>
-                    </div>
-                    <Button>View Tickets</Button>
-                  </div>
-                </div>
-              </div>
-            </Link>
 
             {/* Event Card 6 */}
             <Link href="/events/6" className="group">
               <div className="overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/blockchain.JPG?height=400&width=600"
                     alt="Blockchain Summit"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -271,17 +230,17 @@ export default function EventsPage() {
                     </div>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <MapPin className="h-4 w-4" />
-                      <span>Miami, FL</span>
+                      <span>Bennett University,India</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <Users className="h-4 w-4" />
-                      <span>2,500 attendees</span>
+                      <span>250 attendees</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
                     <div>
                       <div className="text-sm text-muted-foreground">Starting from</div>
-                      <div className="text-lg font-bold">0.25 ETH</div>
+                      <div className="text-lg font-bold">Free</div>
                     </div>
                     <Button>View Tickets</Button>
                   </div>

@@ -17,7 +17,7 @@ export default function FeaturedEvents() {
           <div className="group overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
             <div className="relative h-48 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/solana.webp?height=400&width=600"
                 alt="Tech Conference 2025"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -57,7 +57,7 @@ export default function FeaturedEvents() {
           <div className="group overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
             <div className="relative h-48 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/music.jpg?height=400&width=600"
                 alt="Summer Music Festival"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -97,7 +97,7 @@ export default function FeaturedEvents() {
           <div className="group overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
             <div className="relative h-48 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/nft.jpg?height=400&width=600"
                 alt="Art Exhibition"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"

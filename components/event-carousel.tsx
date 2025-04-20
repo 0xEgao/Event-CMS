@@ -8,10 +8,10 @@ import { ChevronLeft, ChevronRight, Calendar, MapPin } from "lucide-react"
 const events = [
   {
     id: 1,
-    title: "Ultra Music Festival",
+    title: "Music Festival",
     date: "Mar 24-26, 2025",
     location: "Miami, FL",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/music.jpg?height=400&width=600",
     category: "Music",
   },
   {
@@ -19,7 +19,7 @@ const events = [
     title: "Comic Con International",
     date: "Jul 18-21, 2025",
     location: "San Diego, CA",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nft2.jpeg?height=400&width=600",
     category: "Convention",
   },
   {
@@ -27,7 +27,7 @@ const events = [
     title: "NBA All-Star Weekend",
     date: "Feb 14-16, 2025",
     location: "Los Angeles, CA",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nba.jpeg?height=400&width=600",
     category: "Sports",
   },
   {
@@ -35,7 +35,7 @@ const events = [
     title: "TED Conference",
     date: "Apr 10-14, 2025",
     location: "Vancouver, Canada",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/solana.webp?height=400&width=600",
     category: "Conference",
   },
   {
@@ -43,7 +43,7 @@ const events = [
     title: "Coachella Valley Music Festival",
     date: "Apr 10-19, 2025",
     location: "Indio, CA",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nft3.webp?height=400&width=600",
     category: "Music",
   },
 ]

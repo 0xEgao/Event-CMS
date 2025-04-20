@@ -12,7 +12,7 @@ const testimonials = [
       "Ticketify transformed how we handle event ticketing. The NFT tickets added a new revenue stream through royalties from resales, and our attendees love the collectible aspect.",
     name: "Sarah Johnson",
     title: "Festival Director, SoundWave Music Festival",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/music.jpg?height=100&width=100",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const testimonials = [
       "As a concert promoter, I've dealt with counterfeit tickets for years. With Ticketify's NFT tickets, that problem disappeared overnight. The verification process is seamless.",
     name: "Michael Chen",
     title: "CEO, Global Concert Productions",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/nft2.jpeg?height=100&width=100",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const testimonials = [
       "I purchased an NFT ticket for a sold-out show and later had to sell it. The process was simple, secure, and I loved that the artist still got a cut from my resale.",
     name: "Alex Rivera",
     title: "Music Fan & NFT Collector",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/nft3.webp?height=100&width=100",
   },
 ]
 

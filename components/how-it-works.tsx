@@ -33,12 +33,6 @@ export default function HowItWorks() {
               </div>
               <div className="order-1 md:order-2">
                 <div className="relative h-[250px] overflow-hidden rounded-lg">
-                  <Image
-                    src="/placeholder.svg?height=500&width=800"
-                    alt="Create Event Interface"
-                    fill
-                    className="object-cover"
-                  />
                 </div>
               </div>
             </div>
@@ -47,12 +41,6 @@ export default function HowItWorks() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="relative h-[250px] overflow-hidden rounded-lg">
-                  <Image
-                    src="/placeholder.svg?height=500&width=800"
-                    alt="Mint NFT Tickets"
-                    fill
-                    className="object-cover"
-                  />
                 </div>
               </div>
               <div>
@@ -87,12 +75,6 @@ export default function HowItWorks() {
               </div>
               <div className="order-1 md:order-2">
                 <div className="relative h-[250px] overflow-hidden rounded-lg">
-                  <Image
-                    src="/placeholder.svg?height=500&width=800"
-                    alt="Ticket Marketplace"
-                    fill
-                    className="object-cover"
-                  />
                 </div>
               </div>
             </div>
@@ -101,12 +83,7 @@ export default function HowItWorks() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="relative h-[250px] overflow-hidden rounded-lg">
-                  <Image
-                    src="/placeholder.svg?height=500&width=800"
-                    alt="Event Check-in"
-                    fill
-                    className="object-cover"
-                  />
+                 
                 </div>
               </div>
               <div>

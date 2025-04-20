@@ -11,6 +11,9 @@ import { ArrowLeft, CreditCard, Wallet, Info } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
+import WalletConnect from "@/components/WalletConnect"
+
+
 
 // Function to get event and ticket data
 const getTicketData = (eventId: string, tierId: string) => {
@@ -215,7 +218,7 @@ export default function BuyTicketPage({ params }: { params: { id: string; tierId
                     Connect your wallet to purchase with cryptocurrency
                   </span>
                 </div>
-                <Button className="w-full mt-2">Connect Wallet</Button>
+                <WalletConnect></WalletConnect>
               </div>
             )}
 
